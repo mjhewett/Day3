@@ -6,6 +6,7 @@ header{
 	height: 516px;
 	background-image: url("images/header.jpg");
 	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 h1{
@@ -26,7 +27,6 @@ h3{
 /*pictures!*/
 
 header{
-	margin: auto;
 }
 
 .logopic{
