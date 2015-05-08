@@ -1,5 +1,10 @@
 /*header stuff. Text and the background*/
 
+* {
+ box-sizing: border-box;
+ border: 1px solid red;
+}
+
 header{
 	position: static;
 	width: auto;
@@ -50,11 +55,11 @@ header{
 
 .about{
   text-align: right;
-  font: 'Oswald', sans-serif;
+  /*font: 'Oswald', sans-serif;*/
 }
 
 .search{
-  font: 'Oswald', sans-serif;
+  /*font: 'Oswald', sans-serif;*/
 }
 
 .headleft{
@@ -62,29 +67,74 @@ header{
   margin-top: 25px;
 }
 
+
+.headleft span{
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 30px
+}
+
+
 .headright{
   float: right;
   margin-top: 25px;
   margin-left: 80px;
-  font: 'Oswald', sans-serif;
+  /*font: 'Oswald', sans-serif;*/
 }
 
 .headright span{
   margin-left: 25px;
   margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
 }
 
-* {
- box-sizing: border-box;
- border: 1px solid red;
-}
+
 
 
 /* Middle Text*/
 
+section{
+  width: 65%;
+  float: left;
+}
+
+.blockquote{
+  font: 'Oswald', sans-serif;
+}
+
 .p1{
 margin-top: 40px;
-text-align: center;
+text-align: left;
 }
+
+.middletext{
+  margin-left: 100px;
+  margin-right: 200px;
+}
+
+/* Middle pics*/
+
+.aside{
+  width: 35%;
+  float: right;
+}
+
+.paddlechick{
+  float: right;
+  margin-right: 225px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
