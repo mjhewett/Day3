@@ -122,9 +122,13 @@ text-align: left;
 
 .paddlechick{
   float: right;
-  margin-right: 225px;
+  margin-right: 150px;
+  margin-top: 100px;
 }
 
+.avatar1{
+  float: right;
+}
 
 
 
