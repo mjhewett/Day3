@@ -1,8 +1,9 @@
+
 /*header stuff. Text and the background*/
 
 * {
  box-sizing: border-box;
- border: 1px solid red;
+ /*border: 1px solid black;*/
 }
 
 header{
@@ -15,13 +16,17 @@ header{
 }
 
 h1{
-	font-family: 'Ubuntu', sans-serif;
-	color: white;
-	text-align: center;
-	margin-bottom: -38px;
-	margin-right: 60px;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  text-align: center;
+  margin-bottom: -38px;
+  margin-right: 0px;
   margin-top: 190px;
-	font-size: 120px;
+  font-size: 110px;
+}
+
+.div3{
+  padding-top: 30px
 }
 
 h3{
@@ -36,8 +41,6 @@ h3{
 
 /*pictures!*/
 
-header{
-}
 
 .logopic{
 	float:left;
@@ -59,11 +62,11 @@ header{
 
 .about{
   text-align: right;
-  /*font: 'Oswald', sans-serif;*/
+  font: 'Oswald', sans-serif;
 }
 
 .search{
-  /*font: 'Oswald', sans-serif;*/
+  font: 'Oswald', sans-serif;
 }
 
 .headleft{
@@ -74,6 +77,7 @@ header{
 
 .headleft span{
   font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
   margin-left: 30px
 }
 
@@ -93,12 +97,27 @@ header{
   font-family: 'Oswald', sans-serif;
 }
 
+/*end of header stuff*/
+
+/*all encompassing middle space format*/
+
+.midder{
+  height: 1024px;
+  clear: both;
+}
+
 
 /* Middle Text*/
 
 section{
   width: 65%;
   float: left;
+}
+
+h2{
+ font-family: 'Oswald', sans-serif;
+  color: #083452;
+  font-size: 78px;
 }
 
 .blockquote{
@@ -108,6 +127,41 @@ section{
 .p1{
 margin-top: 40px;
 text-align: left;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+color: #545F66;
+}
+
+.p2{
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #545F66;
+}
+
+.p3{
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #545F66;
+}
+
+.p4{
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #545F66;
+}
+
+blockquote{
+  font: 'Open Sans', sans-serif;
+  font-size: 29px;
+  color: #0D6BB2;
+}
+
+.border{
+  border-left: 2px solid #CBCBCB;
+  height: 44px;
 }
 
 .middletext{
@@ -117,7 +171,7 @@ text-align: left;
 
 /* Middle pics*/
 
-.aside{
+aside{
   clear: both;
   width: 35%;
   float: right;
@@ -129,15 +183,33 @@ text-align: left;
   margin-top: 100px;
 }
 
-.avatar1{
-  float: right;
+.topaside {
+  margin: 0 auto;
+  height: auto;
+}
+
+.avatar1 {
+   margin-left: 31%;
+   margin-top: 69px;
 }
 
 
+.pics{
+position: relative;
+width: 25%;
+height: auto;
+display: inline-block;
+float: left;
+}
 
+/*MOST POPULAR POSTS*/
 
-
-
+.poppost{
+  font-family: 'Oswald', sans-serif;
+  font-size: 75px;
+  color: #083452;
+  text-align: center;
+}
 
 
 
