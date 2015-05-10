@@ -6,6 +6,10 @@
  /*border: 1px solid black;*/
 }
 
+.container{
+  width: 1439px;
+}
+
 header{
 	position: static;
 	width: auto;
@@ -120,6 +124,10 @@ h2{
   font-size: 78px;
 }
 
+.smallname{
+  display: inline;
+}
+
 .blockquote{
   font: 'Oswald', sans-serif;
 }
@@ -139,6 +147,18 @@ color: #545F66;
   color: #545F66;
 }
 
+
+.border{
+  border-left: 2px solid #CBCBCB;
+  height: 44px;
+}
+
+.woah{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: #0062AD;
+}
+
 .p3{
   text-align: left;
   font-family: 'Open Sans', sans-serif;
@@ -153,20 +173,48 @@ color: #545F66;
   color: #545F66;
 }
 
-blockquote{
+.annebig{
   font: 'Open Sans', sans-serif;
   font-size: 29px;
   color: #0D6BB2;
+  text-align: center;
 }
 
-.border{
-  border-left: 2px solid #CBCBCB;
-  height: 44px;
+.comment{
+  background-color: #5E686F;
 }
+
+.share{
+  background-color: #5E686F;
+}
+
+.upload{
+  background-color: #5E686F;
+}
+
 
 .middletext{
   margin-left: 100px;
   margin-right: 200px;
+}
+
+/*middle-right text below surferchick*/
+
+h5{
+    font-size: 21px;
+    text-align: left;
+    color: #083452;
+    padding-top: 1px;
+    margin-top: 450px;
+    font-family: 'Oswald' sans-serif;
+}
+
+.sidetext{
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: #AFBDC8;
+  margin-right: 190px;
+  line-height: 30px;
 }
 
 /* Middle pics*/
@@ -174,11 +222,16 @@ blockquote{
 aside{
   clear: both;
   width: 35%;
+  height: 1000px;
   float: right;
 }
 
+.annesmall{
+  height: 30px;
+}
+
 .paddlechick{
-  float: right;
+  float: left;
   margin-right: 150px;
   margin-top: 100px;
 }
@@ -194,14 +247,6 @@ aside{
 }
 
 
-.pics{
-position: relative;
-width: 25%;
-height: auto;
-display: inline-block;
-float: left;
-}
-
 /*MOST POPULAR POSTS*/
 
 .poppost{
@@ -211,9 +256,58 @@ float: left;
   text-align: center;
 }
 
+.bcont{
+    display: block;
+    float: left;
+    width: 100%;
+    /*position: absolute;*/
+}
+.btm-caps{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    color: #083452 ;
+    position: absolute;
+    left: 15;
+    bottom: 7;
+}
 
 
+.pics{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+.pics::after{
+    background-color: #106DB3 ;
+    position: absolute;
+    opacity: .4;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content:"";
+}
 
+
+.btmpic{
+  width: 100%;
+}
+
+.pics:hover .btm-caps{
+    color: white;
+}
+.pics:hover::after{
+    background-color: #106DB3 ;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content:"";
+}
 
 
 
