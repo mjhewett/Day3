@@ -123,12 +123,14 @@ h3{
 section{
   width: 60%;
   float: left;
+  margin-left: 75;
 }
 
 h2{
  font-family: 'Oswald', sans-serif;
   color: #083452;
   font-size: 74px;
+  line-height: 1;
 }
 
 
@@ -147,6 +149,7 @@ h2{
   color: #005DAB;
   padding-right: 15px;
   font-family: 'Open Sans', sans-serif;
+  padding-top: 7px;
 }
 
 .date{
@@ -159,12 +162,12 @@ h2{
 }
 
 .p1{
-margin-top: 40px;
+margin-top: 14px;
 text-align: left;
 font-family: 'Open Sans', sans-serif;
 font-size: 17px;
 color: #545F66;
-line-height: 30px;
+line-height: 25px;
 font-weight: 500;
 }
 
@@ -173,7 +176,7 @@ font-weight: 500;
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   color: #545F66;
-  line-height: 30px;
+  line-height: 25px;
   font-weight: 500;
 }
 
@@ -185,7 +188,7 @@ font-weight: 500;
 
 .woah{
   font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
+  font-size: 27px;
   color: #0062AD;
 }
 
@@ -194,7 +197,7 @@ font-weight: 500;
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   color: #545F66;
-  line-height: 30px;
+  line-height: 25px;
   font-weight: 500;
 }
 
@@ -203,7 +206,7 @@ font-weight: 500;
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   color: #545F66;
-  line-height: 30px;
+  line-height: 25px;
   font-weight: 500;
   padding-bottom: 15px;
 }
@@ -213,16 +216,18 @@ font-weight: 500;
   font-size: 17px;
   color: #0D6BB2;
   text-align: center;
-  margin-left: 42px;
+  margin-left: 65px;
 }
 
 
 .twit{
   font-family: "Open Sans", sans-serif;
   font-size:  15px;
-  border-right: 1px solid gray;
+  border-right: 1px solid #FAFAFA;
   color:  #98AAB7;
   padding-right: 10;
+  margin-left: 25px;
+  text-decoration: none;
 }
 
 .inst{
@@ -230,6 +235,7 @@ font-weight: 500;
   font-size:  15px;
   color:  #98AAB7;
   padding-left: 10;
+  text-decoration: none;
 }
 
 .face{
@@ -237,8 +243,9 @@ font-weight: 500;
   font-size:  15px;
   color:  #98AAB7;
   padding-right: 10;
-  border-right: 1px solid gray;
+  border-right: 1px solid #FAFAFA;
   padding-left: 10px;
+  text-decoration: none;
 }
 
 .comment{
@@ -301,8 +308,8 @@ h5{
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
   color: #AFBDC8;
-  line-height: 30px;
-  margin-right: 215px;
+  line-height: 25px;
+  margin-right: 170px;
 }
 
 
@@ -314,17 +321,20 @@ aside{
   width: 40%;
   height: 500px;
   float: right;
+  padding-left: 105px;
 }
 
 .annesmall{
   height: 30px;
-  margin-top: -70;
+  margin-top: -60px;
 }
 
 .paddlechick{
   float: left;
   margin-right: 150px;
-  margin-top: 20px;
+  margin-top: 75px;
+  width: 304px;
+  height: 330px;
 }
 
 
@@ -337,17 +347,19 @@ aside{
 .ata{
   text-align: right;
   color: #AAB9C4;
-  margin-right: 5;
+  margin-right: -21px;
 }
 
 .topaside {
   margin: 0 auto;
   height: auto;
+  margin-bottom: -94px;
+  margin-right: -308px;
 }
 
 .avatar1 {
   margin-left: 12%;
-  margin-top: 120px;
+  margin-top: 95px;
   margin-bottom: 19px;
 }
 
@@ -363,9 +375,9 @@ margin-left: 15px;
   font-size: 75px;
   color: #083452;
   text-align: center;
-  margin-top: 200px;
-  border-top: 1px solid black;
+  border-top: 1px solid #E3E8EB;
   padding-top: 48px;
+  margin-top: 0px;
 }
 
 .bcont{
