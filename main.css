@@ -39,7 +39,8 @@ h3{
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   font-size: 19px;
-  margin-left: -55px;
+  margin-left: -30px;
+  padding-top: 15;
 }
 
 
@@ -124,8 +125,13 @@ h2{
   font-size: 78px;
 }
 
+
 .smallname{
   display: inline;
+}
+
+.lilanne{
+  display: inline-block;
 }
 
 .blockquote{
@@ -138,6 +144,8 @@ text-align: left;
 font-family: 'Open Sans', sans-serif;
 font-size: 15px;
 color: #545F66;
+line-height: 30px;
+font-weight: 600;
 }
 
 .p2{
@@ -145,6 +153,8 @@ color: #545F66;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   color: #545F66;
+  line-height: 30px;
+  font-weight: 600;
 }
 
 
@@ -164,6 +174,8 @@ color: #545F66;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   color: #545F66;
+  line-height: 30px;
+  font-weight: 600;
 }
 
 .p4{
@@ -171,6 +183,9 @@ color: #545F66;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   color: #545F66;
+  line-height: 30px;
+  font-weight: 600;
+  padding-bottom: 15px;
 }
 
 .annebig{
@@ -180,8 +195,34 @@ color: #545F66;
   text-align: center;
 }
 
+
+.twit{
+  font-family: "Open Sans", sans-serif;
+  font-size:  15px;
+  border-right: 1px solid gray;
+  color:  #98AAB7;
+  padding-right: 10;
+}
+
+.inst{
+  font-family: "Open Sans", sans-serif;
+  font-size:  15px;
+  color:  #98AAB7;
+  padding-left: 10;
+}
+
+.face{
+  font-family: "Open Sans", sans-serif;
+  font-size:  15px;
+  color:  #98AAB7;
+  padding-right: 10;
+  border-right: 1px solid gray;
+  padding-left: 10px;
+}
+
 .comment{
   background-color: #5E686F;
+
 }
 
 .share{
@@ -201,12 +242,13 @@ color: #545F66;
 /*middle-right text below surferchick*/
 
 h5{
-    font-size: 21px;
-    text-align: left;
-    color: #083452;
-    padding-top: 1px;
-    margin-top: 450px;
-    font-family: 'Oswald' sans-serif;
+ font-size: 21px;
+  text-align: left;
+  color: #083452;
+  padding-top: 1px;
+  margin-top: 50px;
+  font-family: 'Oswald' sans-serif;
+  margin-left: -2px;
 }
 
 .sidetext{
@@ -215,14 +257,17 @@ h5{
   color: #AFBDC8;
   margin-right: 190px;
   line-height: 30px;
+
 }
+
+
 
 /* Middle pics*/
 
 aside{
   clear: both;
   width: 35%;
-  height: 1000px;
+  height: 500px;
   float: right;
 }
 
@@ -233,7 +278,20 @@ aside{
 .paddlechick{
   float: left;
   margin-right: 150px;
-  margin-top: 100px;
+  margin-top: 20px;
+}
+
+
+.imgtext{
+  text-align: right;
+  width: 283px;
+  margin-right: 40px;
+}
+
+.ata{
+  text-align: right;
+  color: #AAB9C4;
+  margin-right: 5;
 }
 
 .topaside {
@@ -242,9 +300,11 @@ aside{
 }
 
 .avatar1 {
-   margin-left: 31%;
-   margin-top: 69px;
+  margin-left: 31%;
+  margin-top: 135px;
 }
+
+
 
 
 /*MOST POPULAR POSTS*/
@@ -254,6 +314,7 @@ aside{
   font-size: 75px;
   color: #083452;
   text-align: center;
+  margin-top: 200px;
 }
 
 .bcont{
@@ -309,5 +370,63 @@ aside{
     content:"";
 }
 
+
+/*footer stuff*/
+
+
+footer{
+  clear: both;
+  height: 108;
+  background-color: #083452;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.yard{
+   margin-top: 30;
+  margin-left: 180px;
+}
+
+.tiy{
+color: #AEBCC6;
+font-weight: 300;
+font-size: 14px;
+}
+
+
+.tiy span{
+  margin-top:15px
+}
+
+.tiys{
+  margin-top: -21px;
+  margin-left: 240px;
+}
+
+.nav{
+  text-decoration: none;
+  color: white;
+  margin-left: 660px;
+  margin-top: -13;
+}
+
+
+.no1{
+  color: white;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 14px;
+  border-right: 1px solid #53616B;
+  padding-right: 5px;
+}
+
+.no2{
+   color: white;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 14px;
+  border-right: 1px solid #53616B;
+  padding-right: 5px;
+}
 
 
