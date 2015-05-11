@@ -48,15 +48,18 @@ h3{
 
 
 .logopic{
-	float:left;
-	margin-left: 110px;
-	margin-top: -10px;
+  float: left;
+  margin-left: 159px;
+  margin-top: -14px;
+  height: 50;
 }
 
 .searchiconpic{
-	float: right;
-	margin-right: 150px;
-	margin-top: 8px;
+  float: right;
+  margin-right: 150px;
+  margin-top: 5px;
+  margin-left: 3px;
+  height: 19;
 }
 
 .tspan{
@@ -83,19 +86,21 @@ h3{
 .headleft span{
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
-  margin-left: 30px
+  margin-left: 18px;
+  font-size: 19;
 }
+
 
 
 .headright{
   float: right;
-  margin-top: 25px;
-  margin-left: 80px;
-  /*font: 'Oswald', sans-serif;*/
+  margin-top: 17px;
+  margin-left: 78px;
+  margin-right: 43px;
 }
 
 .headright span{
-  margin-left: 25px;
+  margin-left: 15px;
   margin-top: 10px;
   font-size: 20px;
   font-weight: 700;
@@ -109,20 +114,21 @@ h3{
 .midder{
   height: 1024px;
   clear: both;
+  border-bottom: 1px: solid black;
 }
 
 
 /* Middle Text*/
 
 section{
-  width: 65%;
+  width: 60%;
   float: left;
 }
 
 h2{
  font-family: 'Oswald', sans-serif;
   color: #083452;
-  font-size: 78px;
+  font-size: 74px;
 }
 
 
@@ -140,6 +146,11 @@ h2{
   display: inline-block;
   color: #005DAB;
   padding-right: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.date{
+  color:#9DAEBA;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -199,9 +210,10 @@ font-weight: 500;
 
 .annebig{
   font: 'Open Sans', sans-serif;
-  font-size: 29px;
+  font-size: 17px;
   color: #0D6BB2;
   text-align: center;
+  margin-left: 42px;
 }
 
 
@@ -231,16 +243,41 @@ font-weight: 500;
 
 .comment{
   background-color: #5E686F;
-
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
+
 
 .share{
   background-color: #5E686F;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .upload{
   background-color: #5E686F;
+padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
+
+
+.com{
+  background-color: #106DB3;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  padding: 3px;
+}
+
+
+
+
 
 
 .middletext{
@@ -264,9 +301,8 @@ h5{
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
   color: #AFBDC8;
-  margin-right: 190px;
   line-height: 30px;
-
+  margin-right: 215px;
 }
 
 
@@ -275,7 +311,7 @@ h5{
 
 aside{
   clear: both;
-  width: 35%;
+  width: 40%;
   height: 500px;
   float: right;
 }
@@ -310,11 +346,14 @@ aside{
 }
 
 .avatar1 {
-  margin-left: 31%;
-  margin-top: 135px;
+  margin-left: 12%;
+  margin-top: 120px;
+  margin-bottom: 19px;
 }
 
-
+.annie{
+margin-left: 15px;
+}
 
 
 /*MOST POPULAR POSTS*/
@@ -325,6 +364,8 @@ aside{
   color: #083452;
   text-align: center;
   margin-top: 200px;
+  border-top: 1px solid black;
+  padding-top: 48px;
 }
 
 .bcont{
