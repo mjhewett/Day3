@@ -2,7 +2,63 @@
 /*header stuff. Text and the background*/
 
 
+// fonts
+$osFont: 'Oswald', sans-serif;
+$ubuFont: 'Ubuntu', sans-serif;
+$openFont: 'Open Sans', sans-serif;
 
+
+//font sizes
+$paraSize: 17px;
+
+// colors
+$paraColor: #545F66;
+$titleColor: #003253;
+$navcColor: #9EAEBC;
+
+//border color
+$bordColor: #E3E8EB;
+$hovColor: #106DB3;
+
+
+// mixin stuff
+
+@mixin headStuff(){
+  position: static;
+  width: auto;
+  height: 572px;
+  background-image: url("images/header.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@mixin paraStuff(){
+text-align: left;
+font-family: $openFont;
+font-size: $paraSize;
+color: $paraColor;
+line-height: 25px;
+font-weight: 500;
+}
+
+@mixin navStuff(){
+  color: $navcColor;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 14px;
+  border-right: 1px solid $bordColor;
+  padding-right: 5px;
+}
+
+@mixin hovStuff(){
+    position: absolute;
+    background-color: $hovColor;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content:"";
+}
 
 * {
  box-sizing: border-box;
@@ -14,38 +70,33 @@
 }
 
 header{
-	position: static;
-	width: auto;
-	height: 572px;
-	background-image: url("images/header.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
+@include headStuff();
 
-h1{
-  font-family: 'Ubuntu', sans-serif;
+
+  h1{
+  font-family: $ubuFont;
   color: white;
   text-align: center;
   margin-bottom: -38px;
   margin-right: 0px;
   margin-top: 190px;
   font-size: 110px;
-}
+  }
 
-.div3{
+  .div3{
   padding-top: 30px
-}
+  }
 
-h3{
+  h3{
 	text-align: center;
 	color: #052E47;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: $ubuFont;
   font-weight: 300;
   font-size: 19px;
   margin-left: -30px;
   padding-top: 15;
+  }
 }
-
 
 /*pictures!*/
 
@@ -73,11 +124,11 @@ h3{
 
 .about{
   text-align: right;
-  font: 'Oswald', sans-serif;
+  font: $osFont;
 }
 
 .search{
-  font: 'Oswald', sans-serif;
+  font: $osFont;
 }
 
 .headleft{
@@ -87,7 +138,7 @@ h3{
 
 
 .headleft span{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: $ubuFont;
   font-weight: 400;
   margin-left: 18px;
   font-size: 19;
@@ -107,7 +158,7 @@ h3{
   margin-top: 10px;
   font-size: 20px;
   font-weight: 700;
-  font-family: 'Oswald', sans-serif;
+  font-family: $osFont;
 }
 
 /*end of header stuff*/
@@ -117,7 +168,7 @@ h3{
 .midder{
   height: 1024px;
   clear: both;
-  border-bottom: 1px: solid black;
+  border-bottom: 1px: $bordColor;
 }
 
 
@@ -130,8 +181,8 @@ section{
 }
 
 h2{
- font-family: 'Oswald', sans-serif;
-  color: #083452;
+ font-family: $osFont;
+  color: $titleColor;
   font-size: 74px;
   line-height: 1;
 }
@@ -151,38 +202,37 @@ h2{
   display: inline-block;
   color: #005DAB;
   padding-right: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $openFont;
   padding-top: 7px;
 }
 
 .date{
   color:#9DAEBA;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $openFont;
 }
 
 .blockquote{
-  font: 'Oswald', sans-serif;
+  font: $osFont;
 }
 
 .p1{
-margin-top: 14px;
-text-align: left;
-font-family: 'Open Sans', sans-serif;
-font-size: 17px;
-color: #545F66;
-line-height: 25px;
-font-weight: 500;
-}
+@include paraStuff
 
-.p2{
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 17px;
-  color: #545F66;
-  line-height: 25px;
-  font-weight: 500;
-}
 
+  .p2{
+ @include paraStuff
+  }
+
+
+  .p3{
+ @include paraStuff
+  }
+
+  .p4{
+ @include paraStuff
+  padding-bottom: 15px;
+  }
+}
 
 .border{
   border-left: 2px solid #CBCBCB;
@@ -190,32 +240,12 @@ font-weight: 500;
 }
 
 .woah{
-  font-family: 'Open Sans', sans-serif;
+  font-family: $openFont;
   font-size: 27px;
-  color: #0062AD;
+  color: $titleColor;
 }
-
-.p3{
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 17px;
-  color: #545F66;
-  line-height: 25px;
-  font-weight: 500;
-}
-
-.p4{
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 17px;
-  color: #545F66;
-  line-height: 25px;
-  font-weight: 500;
-  padding-bottom: 15px;
-}
-
 .annebig{
-  font: 'Open Sans', sans-serif;
+  font: $openFont;
   font-size: 17px;
   color: #0D6BB2;
   text-align: center;
@@ -224,7 +254,7 @@ font-weight: 500;
 
 
 .twit{
-  font-family: "Open Sans", sans-serif;
+  font-family: $openFont;
   font-size:  15px;
   border-right: 1px solid #FAFAFA;
   color:  #98AAB7;
@@ -234,7 +264,7 @@ font-weight: 500;
 }
 
 .inst{
-  font-family: "Open Sans", sans-serif;
+  font-family: $openFont;
   font-size:  15px;
   color:  #98AAB7;
   padding-left: 10;
@@ -242,7 +272,7 @@ font-weight: 500;
 }
 
 .face{
-  font-family: "Open Sans", sans-serif;
+  font-family: $openFont;
   font-size:  15px;
   color:  #98AAB7;
   padding-right: 10;
@@ -318,16 +348,16 @@ font-weight: 500;
 h5{
  font-size: 21px;
   text-align: left;
-  color: #083452;
+  color: $titleColor;
   padding-top: 1px;
   margin-top: 50px;
-  font-family: 'Oswald' sans-serif;
+  font-family: $osFont;
   margin-left: -2px;
 }
 
 .sidetext{
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $openFont;
   color: #AFBDC8;
   line-height: 25px;
   margin-right: 170px;
@@ -392,11 +422,11 @@ margin-left: 15px;
 /*MOST POPULAR POSTS*/
 
 .poppost{
-  font-family: 'Oswald', sans-serif;
+  font-family: $osFont;
   font-size: 75px;
-  color: #083452;
+  color: $titleColor;
   text-align: center;
-  border-top: 1px solid #E3E8EB;
+  border-top: 1px solid $bordColor;
   padding-top: 48px;
   margin-top: 0px;
 }
@@ -408,7 +438,7 @@ margin-left: 15px;
     /*position: absolute;*/
 }
 .btm-caps{
-    font-family: 'Oswald', sans-serif;
+    font-family: $osFont;
     font-size: 2em;
     color: #083452 ;
     position: absolute;
@@ -423,18 +453,18 @@ margin-left: 15px;
     display: inline-block;
     position: relative;
     float: left;
-}
-.pics::after{
-    background-color: #106DB3 ;
-    position: absolute;
-    opacity: .4;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    content:"";
-}
 
+  .pics::after{
+    opacity: .4;
+    @include hovStuff;
+  }
+
+
+  .pics:hover::after{
+    opacity: 0;
+   @include hovStuff;
+  }
+}
 
 .btmpic{
   width: 100%;
@@ -442,17 +472,6 @@ margin-left: 15px;
 
 .pics:hover .btm-caps{
     color: white;
-}
-.pics:hover::after{
-    background-color: #106DB3 ;
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    content:"";
-}
 
 
 /*footer stuff*/
@@ -492,43 +511,26 @@ font-size: 14px;
   color: white;
   margin-left: 660px;
   margin-top: -13;
-}
 
 
-.no1{
-  color: #9EAEBC;
-  text-decoration: none;
-  font-weight: 200;
-  font-size: 14px;
-  border-right: 1px solid #53616B;
-  padding-right: 5px;
-}
 
-.no2{
-  color: #9EAEBC;
-  text-decoration: none;
-  font-weight: 200;
-  font-size: 14px;
-  border-right: 1px solid #53616B;
-  padding-right: 5px;
-  padding-left:5px;
-}
+  .no1{
+  @include navStuff()
 
-.no3{
-  color: #9EAEBC;
-  text-decoration: none;
-  font-weight: 200;
-  font-size: 14px;
-  border-right: 1px solid #53616B;
-  padding-right: 5px;
-  padding-left: 5px;
-}
 
-.no4{
-    color: #9EAEBC;
-    text-decoration: none;
-    font-weight: 200;
-    font-size: 14px;
-    padding-right: 5px;
+    .no2{
+    @include navStuff()
+    padding-left:5px;
+    } 
+
+    .no3{
+    @include navStuff()
     padding-left: 5px;
+    }
+
+    .no4{
+    @include navStuff()
+    padding-left: 5px;
+    }
+  }
 }
