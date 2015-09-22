@@ -2,3 +2,5 @@
 
 
 The purpose of this project is to learn how to move HTML elements on a page, and to style those elements using CSS.
+
+Deployed page: http://mjhewett.github.io/Surf-Paddle/

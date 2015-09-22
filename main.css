@@ -351,16 +351,16 @@ aside{
 }
 
 .topaside {
-  margin: 0 auto;
-  height: auto;
-  margin-bottom: -94px;
-  margin-right: -308px;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: -94px;
+    margin-right: 0px;
 }
 
 .avatar1 {
-  margin-left: 12%;
-  margin-top: 95px;
-  margin-bottom: 19px;
+    margin-left: 19%;
+    margin-top: 95px;
+    margin-bottom: 19px;
 }
 
 .annie{
